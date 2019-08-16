@@ -1,0 +1,38 @@
+{
+  "name": "xurma-web-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Alex Bazhin",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^1.0.0",
+    "@nuxtjs/vuetify": "^0.5.6",
+    "autoprefixer": "^9.5.1",
+    "axios": "^0.18.1",
+    "babel-plugin-wildcard": "^5.0.0",
+    "dotenv": "^7.0.0",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "qr-scanner": "^1.1.1",
+    "sass-loader": "^7.1.0",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "gh-pages": "^2.1.1"
+  }
+}

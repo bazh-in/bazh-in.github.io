@@ -1,0 +1,76 @@
+body,
+button,
+input,
+select,
+textarea {
+  font-family: $global-font-family !important;
+}
+
+*,
+*::before,
+*::after {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0; // MacOS Chrome fix
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a {
+  color: $green;
+}
+
+.headline {
+  font-family: $global-font-family !important;
+  font-weight: 500;
+}
+
+.green {
+  background-color: $green !important;
+}
+
+.green--text {
+  color: $green !important;
+}
+
+.grey--text {
+  //color: $dark-grey !important;
+}
+
+.v-btn {
+  text-transform: none !important;
+  //border-radius: 100px;
+  padding: 0 40px !important;
+}
+
+.v-btn--floating {
+  padding: 0 !important;
+}
+
+.invalid-message {
+  color: #F44336;
+}
